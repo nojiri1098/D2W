@@ -6,7 +6,7 @@ import (
 	"example.com/m/v2/tag"
 )
 
-var years = []string{"2019"}
+var years = []string{"2020"}
 
 func main() {
 	for _, y := range years {

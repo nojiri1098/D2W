@@ -13,8 +13,8 @@ import (
 )
 
 const (
-    inputFilename = "20060102.md"
-    outputFilename = "%d/%d.%02d.md"
+    inputFilename = "20060102.txt"
+    outputFilename = "%d/%d.%02d.txt"
 )
 
 var (

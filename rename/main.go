@@ -18,7 +18,7 @@ func Rename(year string) {
 
 		if err := file.Rename(
 			fmt.Sprintf("%s/%s", year, old),
-			fmt.Sprintf("%s/%s.md", year, old[:8]),
+			fmt.Sprintf("%s/%s.txt", year, old[:8]),
 		); err != nil {
 			logger.Error("rename error", zap.Error(err))
 		}
